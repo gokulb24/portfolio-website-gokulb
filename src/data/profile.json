@@ -1,0 +1,170 @@
+{
+  "name": "Gokul B",
+  "headline": "Aspiring AI/ML Engineer",
+  "summary": "Aspiring AI/ML Engineer skilled in Python, Machine Learning, Deep Learning, and Generative AI. Experienced in building end-to-end data science projects, developing predictive models, and deploying AI applications. IBM Data Science Professional Certificate holder with strong problem-solving, analytical thinking, adaptability, and effective communication skills.",
+  "email": "gokulb8187@gmail.com",
+  "phone": "+91-6379059210",
+  "social": {
+    "github": "https://github.com/gokulb24",
+    "linkedin": "https://linkedin.com/in/gokulb24"
+  },
+  "skills": {
+    "languages": ["Python", "SQL"],
+    "ml_ai": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Generative AI", "LLM"],
+    "libraries": ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "NLTK", "SpaCy", "Seaborn", "Matplotlib"],
+    "tools": ["Streamlit", "FastAPI", "AWS SageMaker", "Streamlit Cloud", "Google Colab", "Jupyter Notebook", "VS Code", "PyCharm"],
+    "other": ["Data Visualization", "Data Analysis", "Statistics"]
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "company": "Feynn Labs",
+      "location": "Assam",
+      "role": "Machine Learning Intern",
+      "startDate": "Nov 2024",
+      "endDate": "Jan 2025",
+      "bullets": [
+        "Conducted market segmentation analysis for the EV market using clustering techniques to identify key customer segments.",
+        "Analyzed market trends to support data-driven decision-making and improve targeted marketing strategies.",
+        "Python, EDA, SKlearn, Decision making, KMeans Clustering and Statistical Analysis."
+      ],
+      "tags": ["Python", "ML", "EDA", "Clustering"]
+    },
+    {
+      "id": "exp-2",
+      "company": "Self-Driven Data Science Projects",
+      "location": "Remote",
+      "role": "Data Science Project Lead",
+      "startDate": "Jul 2024",
+      "endDate": "Oct 2024",
+      "bullets": [
+        "Developed predictive models for regression and classification, improving accuracy by 10–15% and reducing prediction error by up to 20% on real-world datasets.",
+        "Performed data wrangling, EDA, and feature engineering on real-world datasets like IPL Auction 2023 and Covid-19.",
+        "Automated data preprocessing pipelines using Python and Pandas, reducing manual data cleaning time by 50% across multiple projects."
+      ],
+      "tags": ["Python", "ML", "EDA", "Feature Engineering", "Data Science"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Car Damage Detection using CNN",
+      "year": 2025,
+      "description": "Developed a vehicle damage detection system using CNN, improving accuracy from 57% to 80% by integrating EfficientNet and ResNet with Optuna-based hyperparameter tuning. Deployed an interactive Streamlit app, reducing manual inspection effort by 60%.",
+      "metrics": {
+        "accuracy_improvement": "57% to 80%",
+        "manual_effort_reduction": "60%"
+      },
+      "tags": ["Deep Learning", "CNN", "Computer Vision", "EfficientNet", "ResNet", "Optuna", "Streamlit"],
+      "links": {
+        "demo": "https://dl-car-damage-detection-gokulb.streamlit.app",
+        "github": ""
+      }
+    },
+    {
+      "id": "proj-2",
+      "title": "Credit Risk Modelling",
+      "year": 2025,
+      "description": "Built a credit risk prediction model achieving 90%+ recall through class imbalance handling and Optuna optimization. Delivered a real-time risk prediction app with Streamlit, processing 100+ predictions per session.",
+      "metrics": {
+        "recall": "90%+",
+        "predictions_per_session": "100+"
+      },
+      "tags": ["Machine Learning", "Classification", "Class Imbalance", "Optuna", "Streamlit"],
+      "links": {
+        "demo": "https://ml-credit-risk-prediction-gokulb.streamlit.app",
+        "github": ""
+      }
+    },
+    {
+      "id": "proj-3",
+      "title": "Health Insurance Premium Prediction",
+      "year": 2024,
+      "description": "Created an XGBoost-based premium prediction model with 99% accuracy and a mean error under 5%. Automated preprocessing pipelines, reducing data preparation time by 50%, and deployed via Streamlit Cloud.",
+      "metrics": {
+        "accuracy": "99%",
+        "mean_error": "< 5%",
+        "data_prep_time_reduction": "50%"
+      },
+      "tags": ["Machine Learning", "Regression", "XGBoost", "Streamlit", "Automation"],
+      "links": {
+        "demo": "https://ml-project-healthcare-prediction-gokulb.streamlit.app",
+        "github": ""
+      }
+    },
+    {
+      "id": "proj-4",
+      "title": "AI-Powered App Builder using Multi-Agent Architecture",
+      "year": 2025,
+      "description": "Developed an autonomous software-generation system using LangGraph, LangChain, and Groq LLM OSS models. Implemented a multi-agent workflow with Planner, Architect, and Coder agents capable of converting natural-language prompts into complete, production-ready projects. Integrated tool-based file generation, project planning, and execution using real developer workflows. Achieved autonomous generation of full applications including HTML/CSS/JS, Python, and React projects.",
+      "metrics": {
+        "automation_level": "End-to-end project generation",
+        "generation_time": "Under 30 seconds for small apps",
+        "human_effort_reduction": "80%",
+        "supported_stacks": "Python, JavaScript, React"
+      },
+      "tags": [
+        "AI Agents",
+        "LangGraph",
+        "LangChain",
+        "Groq LLM",
+        "Automation",
+        "Code Generation",
+        "Software Engineering"
+      ],
+      "links": {
+        "demo": "",
+        "github": "https://github.com/gokulb24/app-builder-agent"
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Vels University - Chennai",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "startDate": "Aug 2022",
+      "endDate": "May 2026",
+      "cgpa": "7.5/10",
+      "coursework": [
+        "Object Oriented Programming",
+        "Databases",
+        "Maths and Statistics",
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Computer Networks",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Data Mining and Visualization"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "IBM Data Science Professional Certificate",
+      "issuer": "Coursera",
+      "link": "https://coursera.org/share/2bca8e02cbed6f1b8ed8d5f59aeb89e4"
+    },
+    {
+      "id": "cert-2",
+      "name": "Deep Learning: Beginner to Advanced",
+      "issuer": "Codebasics",
+      "link": "https://codebasics.io/certificate/CB-85-353936"
+    },
+    {
+      "id": "cert-3",
+      "name": "Statistics for Data Science and Business Analysis",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-091e3f12-c61c-4151-957a-a44ab6d1403f/"
+    },
+    {
+      "id": "cert-4",
+      "name": "Machine Learning A-Z",
+      "issuer": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-62454e24-40ae-40cb-90f7-ac836debbff6/"
+    }
+  ]
+}

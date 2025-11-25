@@ -1,0 +1,38 @@
+/* Dark mode styles for better accessibility */
+@media (prefers-color-scheme: dark) {
+  color-scheme: dark;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: more) {
+  :root {
+    --tw-text-opacity: 1;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Improved link focus states */
+a:focus-visible {
+  outline: 2px solid #9333ea;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+button:focus-visible {
+  outline: 2px solid #9333ea;
+  outline-offset: 2px;
+}
