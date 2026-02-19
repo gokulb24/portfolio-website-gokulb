@@ -12,32 +12,32 @@
     "export-resume": "node scripts/export-resume.js"
   },
   "dependencies": {
-    "next": "^15.0.0",
+    "autoprefixer": "^10.4.16",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.408.0",
+    "next": "^15.5.12",
+    "next-themes": "^0.2.1",
+    "postcss": "^8.4.32",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.0.1",
-    "lucide-react": "^0.408.0",
-    "framer-motion": "^11.0.8",
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "next-themes": "^0.2.1",
-    "clsx": "^2.0.0",
-    "class-variance-authority": "^0.7.0"
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^29.5.10",
     "@types/node": "^20.10.5",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "eslint": "^8.56.0",
     "eslint-config-next": "^15.0.0",
-    "prettier": "^3.1.1",
-    "@testing-library/react": "^14.1.2",
-    "@testing-library/jest-dom": "^6.1.5",
     "jest": "^29.7.0",
     "jest-axe": "^8.0.0",
-    "@types/jest": "^29.5.10",
-    "jest-environment-jsdom": "^29.7.0"
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   }
 }
