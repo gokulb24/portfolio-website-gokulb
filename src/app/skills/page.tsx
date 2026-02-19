@@ -56,18 +56,9 @@ export default function Skills() {
                 <div className="space-y-4">
                   {category.skills.map((skill) => (
                     <div key={skill}>
-                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
                         {skill}
                       </p>
-                      <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: '100%' }}
-                          transition={{ duration: 0.8, ease: 'easeOut' }}
-                          viewport={{ once: true }}
-                          className="h-full bg-gradient-to-r from-primary-500 to-primary-700 rounded-full"
-                        />
-                      </div>
                     </div>
                   ))}
                 </div>
