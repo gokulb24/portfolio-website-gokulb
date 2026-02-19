@@ -37,13 +37,13 @@ export default function Home() {
           {/* Profile Avatar (responsive larger size) */}
           <motion.div variants={item} className="mb-8">
             <div className="inline-flex justify-center items-center">
-              <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 p-1 overflow-hidden">
+              <div className="w-40 h-40 md:w-56 md:h-56 lg:w-72 lg:h-72 rounded-3xl bg-gradient-to-br from-primary-400 to-primary-600 p-1 overflow-hidden shadow-2xl hover:shadow-primary-500/50 transition-shadow duration-300">
                 <Image
                   src="/profile.jpg"
                   alt={profile.name}
-                  width={192}
-                  height={192}
-                  className="w-full h-full rounded-full object-cover"
+                  width={288}
+                  height={288}
+                  className="w-full h-full rounded-3xl object-cover"
                   priority
                 />
               </div>

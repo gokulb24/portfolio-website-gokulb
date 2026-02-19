@@ -20,7 +20,7 @@ export const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
 
   useEffect(() => {
     setIsMounted(true);
@@ -70,11 +70,11 @@ export const Navigation: React.FC = () => {
           <div className="flex items-center gap-4">
             {isMounted && (
               <button
-                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
                 className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
                 aria-label="Toggle theme"
               >
-                {theme === 'dark' ? (
+                {resolvedTheme === 'dark' ? (
                   <FiSun size={20} className="text-yellow-500" />
                 ) : (
                   <FiMoon size={20} className="text-gray-700" />

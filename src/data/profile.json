@@ -1,7 +1,7 @@
 {
   "name": "Gokul B",
-  "headline": "Aspiring AI/ML Engineer",
-  "summary": "Aspiring AI/ML Engineer skilled in Python, Machine Learning, Deep Learning, and Generative AI. Experienced in building end-to-end data science projects, developing predictive models, and deploying AI applications. IBM Data Science Professional Certificate holder with strong problem-solving, analytical thinking, adaptability, and effective communication skills.",
+  "headline": "Junior AI/ML Engineer",
+  "summary": "Junior AI/ML Engineer skilled in Python, Machine Learning, Deep Learning, and Generative AI. Experienced in building end-to-end data science projects, developing predictive models, and deploying AI applications. IBM Data Science Professional Certificate holder with strong problem-solving, analytical thinking, adaptability, and effective communication skills.",
   "email": "gokulb8187@gmail.com",
   "phone": "+91-6379059210",
   "social": {
@@ -34,7 +34,7 @@
       "id": "exp-2",
       "company": "Self-Driven Data Science Projects",
       "location": "Remote",
-      "role": "Data Science Project Lead",
+      "role": "Data Science Project",
       "startDate": "Jul 2024",
       "endDate": "Oct 2024",
       "bullets": [
@@ -114,7 +114,22 @@
       ],
       "links": {
         "demo": "",
-        "github": "https://github.com/gokulb24/app-builder-agent"
+        "github": "https://github.com/gokulb24/AI-App-Builder"
+      }
+    },
+    {
+      "id": "proj-5",
+      "title": "College Website RAG Chatbot",
+      "year": 2025,
+      "description": "Engineered a production-grade Retrieval Augmented Generation chatbot using LangChain and ChromaDB, ingesting college websites to deliver grounded answers with 95% accuracy across 100 plus user queries. Designed a persistent ingestion and retrieval pipeline with recursive chunking and top-k semantic search, improving answer precision above 90 percent while reducing hallucination rate by 40% through prompt-guided grounding. Integrated Groq-hosted LLaMA-3.3-70B with source attribution and vector normalization, increasing retrieval depth, response stability, and factual correctness consistently under real-world queries.",
+      "metrics": {
+        "accuracy": "95%",
+        "precision": ">90%",
+        "hallucination_reduction": "40%"
+      },
+      "tags": ["Python", "LangChain", "Groq LLaMA-3", "ChromaDB", "HuggingFace", "RAG", "Chatbot", "NLP"],
+      "links": {
+        "github": "https://github.com/gokulb24/College-Q-A-Chatbot"
       }
     }
   ],
@@ -126,7 +141,7 @@
       "specialization": "Artificial Intelligence and Machine Learning",
       "startDate": "Aug 2022",
       "endDate": "May 2026",
-      "cgpa": "7.5/10",
+      "cgpa": "7.82/10",
       "coursework": [
         "Object Oriented Programming",
         "Databases",

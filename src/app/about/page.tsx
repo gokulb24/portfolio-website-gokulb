@@ -43,7 +43,7 @@ export default function About() {
             {profile.summary}
           </p>
           <a
-            href="/Users/gokulb/portfolio/resume.tex"
+            href="/resume.pdf?v=2026"
             download
             className="inline-block px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors"
           >
