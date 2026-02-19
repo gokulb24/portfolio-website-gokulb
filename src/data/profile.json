@@ -114,7 +114,22 @@
       ],
       "links": {
         "demo": "",
-        "github": "https://github.com/gokulb24/app-builder-agent"
+        "github": "https://github.com/gokulb24/AI-App-Builder"
+      }
+    },
+    {
+      "id": "proj-5",
+      "title": "College Website RAG Chatbot",
+      "year": 2025,
+      "description": "Engineered a production-grade Retrieval Augmented Generation chatbot using LangChain and ChromaDB, ingesting college websites to deliver grounded answers with 95% accuracy across 100 plus user queries. Designed a persistent ingestion and retrieval pipeline with recursive chunking and top-k semantic search, improving answer precision above 90 percent while reducing hallucination rate by 40% through prompt-guided grounding. Integrated Groq-hosted LLaMA-3.3-70B with source attribution and vector normalization, increasing retrieval depth, response stability, and factual correctness consistently under real-world queries.",
+      "metrics": {
+        "accuracy": "95%",
+        "precision": ">90%",
+        "hallucination_reduction": "40%"
+      },
+      "tags": ["Python", "LangChain", "Groq LLaMA-3", "ChromaDB", "HuggingFace", "RAG", "Chatbot", "NLP"],
+      "links": {
+        "github": "https://github.com/gokulb24/College-Q-A-Chatbot"
       }
     }
   ],
