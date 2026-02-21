@@ -17,7 +17,7 @@ interface ContactFormProps {
 
 export const ContactForm: React.FC<ContactFormProps> = ({
   endpoint = 'formspree',
-  formspreeId,
+  formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
 }) => {
   const [formData, setFormData] = useState<FormData>({
     name: '',
