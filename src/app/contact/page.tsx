@@ -73,7 +73,7 @@ export default function Contact() {
             <p className="text-gray-600 dark:text-gray-400 mb-8">
               Have a question or want to collaborate? Fill out the form and I'll get back to you as soon as possible.
             </p>
-            <ContactForm endpoint="nextjs" />
+            <ContactForm endpoint="formspree" formspreeId="xangqbkv" />
           </motion.div>
 
           {/* Contact Info */}
